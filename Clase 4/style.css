@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.seccion3 img{
+    background-image: url(imagen/imagenclase4.jpg);
+    width: 500px;
+    height: 400px;
+    margin: 10px 20px;
+}
+
+.seccion2 {
+    background-image: url("imagen/verde3.jpg");
+    width: 1000px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px 20px;
+
+}
+
+.seccion1 {
+    background-image: url(imagen/amarillo1.jpg);
+    width: 1000px;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.seccion3{
+    background-image: url(imagen/azul2.jpg);
+    width: 1000px;
+    height: 900px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(10, 10, 9);
+}

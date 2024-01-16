@@ -1,0 +1,114 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+@import url('./navbar.css');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+:root {
+    --star-color: rgb(80, 80, 14);
+    --color-secund: rgb(223, 62, 22);
+    --color-primary: rgb(238, 24, 9);
+    --color-fondito: rgb(162, 214, 236);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 16px;
+    background-color: rgb(24, 127, 133);
+    margin-top: 15px;
+}
+header .btn-h{
+    border: none;
+    background-color: transparent;
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 0 50px;
+
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-1 .articulo-clase {
+    width: 300px;
+    height: 150px;
+    padding: 32px;
+    background-color: var(--color-fondito);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section-1 .articulo-clase .division-span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-1 .articulo-clase .division-span .bi-chevron-right {
+    color: var(--color-secund);
+    font-weight: 900;
+    margin-right: 20px;
+}
+
+
+
+.section-1 .articulo-clase .span-clase {
+    color: var(--star-color);
+}
+
+.section-1 .articulo-clase h3 {
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-weight: 700;
+    margin-bottom: 10px
+}
+
+
+.section-1 .articulo-clase p {
+    font-weight: 400;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--color-primary);
+    line-height: 25px;
+}
+
+@media screen and (max-width:1100px) {
+    .section-1  {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section-1 .articulo-clase {
+        width: 80%;
+        height: 221px;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .articulo-clase{
+        width: 50%;
+        height: auto;
+    }
+    
+}

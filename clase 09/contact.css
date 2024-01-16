@@ -1,0 +1,60 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css");
+
+@keyframes to-right {
+    0% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+}
+
+
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation-name: to-right;
+    animation-duration: 5s;
+
+}
+
+.clase-1 {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.bi-activity {
+    font-size: 30px;
+    animation-name: aparecer;
+    animation-duration: 0.5s;
+    animation-delay: 5.5s;
+}
+
+
+.contenedor {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinner{
+    
+}

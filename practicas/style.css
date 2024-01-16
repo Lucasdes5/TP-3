@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+/*estilo para el header*/
+
+header {
+    background-color: rgb(199, 201, 200);
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+    align-items: center;
+
+}
+
+ img {
+    width: 10%;
+}
+
+.lista-nav {
+    display: flex;
+    gap: 20px;
+
+
+}
+
+.lista-nav li {
+    list-style: none;
+
+
+}
+
+.lista-nav li a {
+    text-decoration: none;
+    color: rgb(7, 12, 12);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+    align-content: center;
+
+}
+
+.estilo-clase-list {
+    position: absolute;
+    display: none;
+    background-color: rgb(255, 255, 255);
+}
+
+.clase-estilo:hover .estilo-clase-list {
+    display: block;
+}
+
+
+/*main-wisky*/
+
+h1 {
+    color: cornsilk;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.wisky img {
+    width: 100%;
+    margin-top: 10px;
+    height: 800px;
+    filter: brightness(75%);
+}
+
+.wisky {
+    position: relative;
+}
+
+
+
+.wisky .cerve-arte {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+
+
+
+}
+
+.contactame {
+    background-color: darkgoldenrod;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 10%;
+    color: beige;
+
+}
